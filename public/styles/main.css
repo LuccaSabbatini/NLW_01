@@ -1,0 +1,32 @@
+/* ROOT VARIABLES */
+:root{
+    --title-color: #322153;
+    --primary-color:  #34cb79;
+    --hover-color: #2fb86e;
+    --background-color: #e0e0e5;
+}
+
+/* HTML NATIVE ELEMENTS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Passa a considerar a borda da caixa como limite, e não o conteúdo*/
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: var(--background-color);
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}

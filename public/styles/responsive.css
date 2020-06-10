@@ -1,0 +1,53 @@
+/* TEMPORARY */
+
+@media (max-width: 950px) {
+    #page-home {
+        background-size: 200px;
+        background-position: right bottom;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home .content header a {
+        position: absolute;
+        bottom: 48px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 680px) {
+    #page-home {
+        background-size: 0;
+    }
+}
+
+@media (max-width: 560px) {
+    #page-home .content header a {
+        position: absolute;
+        bottom: 20px;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

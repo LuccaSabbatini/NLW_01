@@ -1,0 +1,36 @@
+#modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #0e0a14df;
+
+    position: fixed;
+    top: 0;
+}
+
+#modal .content {
+    width: 420px;
+}
+
+#modal .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    padding-bottom: 25px;
+
+    border-radius: 8px;
+
+    background-color: #0e0a14c0;
+}
+
+#modal h1 {
+    margin-top: 20px;
+
+    color: white;
+}
